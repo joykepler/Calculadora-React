@@ -70,7 +70,7 @@ const App = () => {
           <Button label="x"></Button>
           <Button label="/"></Button>
           <Button label="C" onClick={handleOnClear}></Button>
-          <Button label="X"></Button>
+          <Button label="0" onClick={() => handleAddNumber('0')}></Button>
         </Row>
         <Row>
           <Button label="7" onClick={() => handleAddNumber('7')}></Button>

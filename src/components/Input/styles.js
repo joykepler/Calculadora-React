@@ -13,15 +13,17 @@ export const InputContainer = styled.div `
 
     input {
         width: 100%;
-        height: 75px;
-        background-color: #FFB1B1;
-        border: 0;
+        height: 80px;
+        background-color: #bbbec1;
+    
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         padding: 0 10px;
-        font-size: 30px;
+        font-size: 40px;
         font-family: 'Roboto';
-        color: #FFFFFF;
+        color: #0c0f14;
+        font-weight: bold;
     }
 `
